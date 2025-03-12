@@ -135,7 +135,7 @@ header::before{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url('../assets/OKKU-Images/17.png');
+    background-image: url('./assets/OKKU-Images/17.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,19 +146,19 @@ header::before{
 
 @keyframes change{
     0%{
-        background-image: url('../assets/OKKU-Images/17.png');
+        background-image: url('./assets/OKKU-Images/17.png');
     }
     25%{
-        background-image: url('../assets/OKKU-Images/18.png');
+        background-image: url('./assets/OKKU-Images/18.png');
     }
     50%{
         background-image: url('../assets/OKKU-Images/19.png');
     }
     75%{
-        background-image: url('../assets/OKKU-Images/20.png');
+        background-image: url('./assets/OKKU-Images/20.png');
     }
     100%{
-        background-image: url('../assets/OKKU-Images/17.png');
+        background-image: url('./assets/OKKU-Images/17.png');
     }
 }
 
